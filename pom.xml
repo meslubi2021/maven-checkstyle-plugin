@@ -67,8 +67,8 @@ under the License.
     <javaVersion>7</javaVersion>
     <maven.compiler.source>1.${javaVersion}</maven.compiler.source>
     <maven.compiler.target>1.${javaVersion}</maven.compiler.target>
-    <mavenVersion>3.0</mavenVersion>
-    <checkstyleVersion>6.18</checkstyleVersion>
+    <mavenVersion>3.8.1</mavenVersion>
+    <checkstyleVersion>8.29</checkstyleVersion>
     <doxiaVersion>1.4</doxiaVersion>
     <sitePluginVersion>3.7.1</sitePluginVersion>
   </properties>
@@ -226,14 +226,14 @@ under the License.
     <dependency>
       <groupId>commons-collections</groupId>
       <artifactId>commons-collections</artifactId>
-      <version>3.2.1</version>
+      <version>3.2.2</version>
     </dependency>
 
     <!-- test -->
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
-      <version>4.8.2</version>
+      <version>4.13.1</version>
       <scope>test</scope>
     </dependency>
     <dependency>
